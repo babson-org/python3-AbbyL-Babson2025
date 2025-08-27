@@ -1,12 +1,21 @@
 #%%
 # print 'hello' 5 times using an arithmetic operator
-
+x='hello'
+print(x*5)
 
 #%%
 # print 'hello' 5 times using a loop
+time = 0
+while time<5:
+      print('hello')
+      time=time+1
 
 #%%
 # print 'hello' 5 times on the same line using a loop
+time = 0
+while time<5:
+      print('hello', end='')
+      time=time+1
 
 #%%
 ''' using nested loops print the following:
